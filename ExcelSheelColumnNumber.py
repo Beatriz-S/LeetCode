@@ -12,5 +12,11 @@ def anyLengthString(column):
         num = (ord(column[index])-64)
         #answer=answer plus num times 26 raised to the power of i
         answer=answer+num*(26**i)
+        #print( ' num: ' + str(num) + ' i: '+str(i))
         i+=1
+        
     return answer
+
+if __name__=='__main__':
+   print(anyLengthString('AAC'))
+   
