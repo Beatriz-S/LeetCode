@@ -16,9 +16,12 @@ Test #	Input	Output
 num=str(input())
 #initialize the reverse num
 revNum=0
+#making num into a list
 num=list(num)
 #reverse works with lists
 num.reverse()
 num=''.join(num)
 
 print(num[0] , num[1])
+
+#use print(*num) to print the list with space separated elements
