@@ -2,7 +2,7 @@
 def twoSum(nums,target):
    #Initialize out_list
    outList=[]
-   #loop throuhg the list to get the first number
+   #loop through the list to get the first number
    #from zero to end
    for i in range(len(nums)):
       first_num=nums[i]
